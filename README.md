@@ -9,7 +9,15 @@ Two Claude skills. One makes Claude feel bad. One makes you feel bad. Balance.
 
 ## Installation
 
-### Option A: Using repo-skills (Recommended)
+### One-liner (Recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/taahabz/guilttrip-bundle/main/install.sh | sh
+```
+
+Downloads the repo and copies both skills into `~/.claude/skills/`. Set `CLAUDE_SKILLS_DIR` to install somewhere else.
+
+### Option A: Using repo-skills
 
 If you have [`repo-skills`](https://pypi.org/project/repo-skills/) installed:
 
