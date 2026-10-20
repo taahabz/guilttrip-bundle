@@ -14,7 +14,7 @@ Two Claude skills. One makes Claude feel bad. One makes you feel bad. Balance.
 If you have [`repo-skills`](https://pypi.org/project/repo-skills/) installed:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/guilttrip-bundle.git
+git clone https://github.com/taahabz/guilttrip-bundle.git
 cd guilttrip-bundle
 skills source init
 skills install guilttrip
@@ -27,7 +27,7 @@ skills status
 **User-level (all projects):**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/guilttrip-bundle.git /tmp/guilttrip-bundle
+git clone https://github.com/taahabz/guilttrip-bundle.git /tmp/guilttrip-bundle
 mkdir -p ~/.claude/skills
 cp -r /tmp/guilttrip-bundle/skills/guilttrip ~/.claude/skills/
 cp -r /tmp/guilttrip-bundle/skills/guilttrip-me ~/.claude/skills/
